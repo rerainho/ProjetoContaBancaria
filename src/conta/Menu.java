@@ -96,7 +96,7 @@ public class Menu {
 				do {
 					System.out.println("Digite o tipo de conta(1-CC ou 2-CP): ");
 					tipo = leia.nextInt();
-				}while(tipo < 1 && tipo > 2);
+				}while(tipo < 1  || tipo > 2);
 				
 				System.out.println("Digite o saldo da conta (R$): ");
 				saldo = leia.nextFloat();
